@@ -11,5 +11,6 @@
 	<modules>
 		<module>third-party/android-times-square</module>
 		<module>android-maven-talk-apk</module>
+		<module>android-maven-talk-instrumentation</module>
 	</modules>
 </project>
