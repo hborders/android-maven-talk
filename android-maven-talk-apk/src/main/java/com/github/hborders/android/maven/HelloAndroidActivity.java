@@ -1,8 +1,10 @@
 package com.github.hborders.android.maven;
 
 import android.app.Activity;
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.Menu;
+import android.view.View;
 import android.widget.Toast;
 import it.sephiroth.android.library.ab.AB;
 import it.sephiroth.android.library.ab.ABTest;
@@ -46,5 +48,8 @@ public class HelloAndroidActivity extends Activity {
 	return true;
     }
 
+    public void buttonClicked(View view) {
+        startActivity(new Intent(this, CalendarActivity.class));
+    }
 }
 

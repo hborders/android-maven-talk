@@ -1,3 +1,6 @@
 [submodule "tools/maven-android-sdk-deployer"]
 	path = tools/maven-android-sdk-deployer
 	url = https://github.com/mosabua/maven-android-sdk-deployer
+[submodule "third-party/android-times-square"]
+	path = third-party/android-times-square
+	url = https://github.com/square/android-times-square
