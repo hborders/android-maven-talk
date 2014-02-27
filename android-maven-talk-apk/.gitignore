@@ -1,1 +1,6 @@
 target
+.idea/
+android-maven-talk-apk.iml
+gen-external-apklibs/
+gen/
+out/
